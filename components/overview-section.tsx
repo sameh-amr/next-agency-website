@@ -131,14 +131,13 @@ export default function OverviewSection() {
               </div>
             </div>
             <div className="h-16 sm:h-20 flex items-center justify-center">
-              <h3 className="text-lg sm:text-xl font-bold uppercase tracking-wide flex items-center">
+              <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide flex items-center whitespace-nowrap">
                 <LineChart className="mr-2" size={18} />
                 Lead Generation
               </h3>
             </div>
-            <p className="text-center text-white/80 text-xs sm:text-sm mb-3 sm:mb-4 h-24 sm:h-20">
-              We create strategic campaigns that attract and convert high-quality leads for your business, using
-              data-driven approaches to target the right audience with the right message.
+            <p className="mx-auto text-center text-white/80 text-xs sm:text-sm mb-3 sm:mb-4 h-24 sm:h-20">
+              We attract quality leads for your business through targeted, data-driven campaigns.
             </p>
 
 
@@ -177,9 +176,8 @@ export default function OverviewSection() {
                 Software Projects
               </h3>
             </div>
-            <p className="text-center text-white/80 text-xs sm:text-sm mb-3 sm:mb-4 h-24 sm:h-20">
-              We develop custom software solutions tailored to your business needs, from web applications to complex
-              systems that streamline operations and enhance customer experiences.
+            <p className="mx-auto text-center text-white/80 text-xs sm:text-sm mb-3 sm:mb-4 h-24 sm:h-20">
+              We develop custom software to streamline your operations and drive business growth.
             </p>
           </motion.div>
 
@@ -210,14 +208,13 @@ export default function OverviewSection() {
               </div>
             </div>
             <div className="h-16 sm:h-20 flex items-center justify-center">
-              <h3 className="text-lg sm:text-xl font-bold uppercase tracking-wide flex items-center">
+              <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide flex items-center whitespace-nowrap">
                 <BarChart3 className="mr-2" size={18} />
                 Data & Analysis
               </h3>
             </div>
-            <p className="text-center text-white/80 text-xs sm:text-sm mb-3 sm:mb-4 h-24 sm:h-20">
-              We transform raw data into actionable insights that drive business decisions. Our data analysis services
-              help you understand customer behavior and optimize your marketing efforts.
+            <p className="mx-auto text-center text-white/80 text-xs sm:text-sm mb-3 sm:mb-4 h-24 sm:h-20">
+              We turn your data into insights that help you understand customers and improve results.
             </p>
 
 
@@ -250,14 +247,13 @@ export default function OverviewSection() {
               </div>
             </div>
             <div className="h-16 sm:h-20 flex items-center justify-center">
-              <h3 className="text-lg sm:text-xl font-bold uppercase tracking-wide flex items-center">
+              <h3 className="text-base sm:text-lg font-bold uppercase tracking-wide flex items-center whitespace-nowrap">
                 <LineChart className="mr-2" size={18} />
                 Traffic Growth
               </h3>
             </div>
-            <p className="text-center text-white/80 text-xs sm:text-sm mb-3 sm:mb-4 h-24 sm:h-20">
-              We implement data-driven strategies to increase targeted traffic to your digital platforms, focusing on
-              attracting quality visitors who are likely to convert into customers.
+            <p className="mx-auto text-center text-white/80 text-xs sm:text-sm mb-3 sm:mb-4 h-24 sm:h-20">
+              We grow your digital presence by increasing targeted traffic and boosting conversions.
             </p>
 
           </motion.div>
