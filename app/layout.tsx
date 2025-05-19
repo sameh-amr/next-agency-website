@@ -25,6 +25,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={montserrat.variable} style={{ scrollBehavior: "smooth" }}>
       <head>
+        <title>Inhouse Partners</title>
+        <link rel="icon" href="/molich-media-transparent-removebg-preview.png" type="image/png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta name="theme-color" content="#2d4b5e" />
         <style>{`

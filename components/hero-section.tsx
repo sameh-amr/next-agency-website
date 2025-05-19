@@ -191,7 +191,7 @@ export default function HeroSection() {
               ></motion.div>
 
               <motion.div
-                className="absolute inset-8 bg-white rounded-full shadow-lg flex items-center justify-center p-2 sm:p-3 md:p-4"
+                className="absolute inset-8 bg-white rounded-full shadow-lg flex items-center justify-center p-0 border-none"
                 animate={isHovering && !prefersReducedMotion ? { y: -5 } : { y: 0 }}
                 transition={{ type: "spring", stiffness: 300, damping: 15 }}
                 style={{ transform: "translateZ(10px)" }}
@@ -218,11 +218,11 @@ export default function HeroSection() {
                     className="relative"
                   >
                     <Image
-                      src="/molich-media-transparent.png"
+                      src="/molich-media-transparent-removebg-preview.png"
                       alt="Molich Media"
                       width={200}
                       height={200}
-                      className="w-[160px] sm:w-[180px] md:w-[220px] drop-shadow-md border-none"
+                      className="w-full h-full object-cover rounded-full bg-white border-none shadow-none"
                       priority
                     />
                   </motion.div>

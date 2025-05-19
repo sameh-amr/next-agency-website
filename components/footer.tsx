@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin } from "lucide-react"
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 text-white py-2 sm:py-6 md:py-12 lg:py-16">
+    <footer className="bg-slate-900 text-white py-2 sm:py-4 md:py-6 lg:py-8">
       <div className="container mx-auto px-6 sm:px-8 md:px-12 lg:px-16">
         <div className="hidden sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-0 sm:mb-8 lg:mb-12">
           <div>
@@ -110,7 +110,7 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <Phone className="text-slate-400 mt-0.5 flex-shrink-0" size={16} />
                 <Link href="tel:+4500000000" className="text-slate-400 hover:text-white transition-colors text-sm">
-                  +45 00 00 00 00
+                  +45 49 40 50 24
                 </Link>
               </li>
               <li className="flex items-start gap-3">
@@ -121,7 +121,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-800 pt-2 sm:pt-6 flex justify-center sm:justify-between items-center">
+        <div className="border-t border-slate-800 pt-1 sm:pt-2 flex justify-center sm:justify-between items-center">
           <div className="hidden sm:block"></div>
           <div className="text-slate-400 text-[10px] sm:text-xs">© {new Date().getFullYear()} Molich Media</div>
         </div>
